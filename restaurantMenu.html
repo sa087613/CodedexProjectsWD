@@ -1,0 +1,97 @@
+<!-- Final Touches 🖌️ -->
+<!-- Codédex -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        display: inline;
+      }
+
+      hr {
+        width: 95%;
+        margin: auto;
+      }
+      textarea {
+        height: 100px;
+        width: 300px;
+      }
+    </style>
+    <title>Codédex Cooking</title>
+  </head>
+  <body>
+    <header>
+      <h1>Codédex Cooking</h1>
+      <figure>
+          <img style="width: 150px;" src="https://cdn.pixabay.com/photo/2024/01/12/15/05/food-8504111_640.jpg" alt="header-img">
+      </figure>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order_form">Order Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br/>
+    <main>
+      <section id="menu">
+        <h2>Menu</h2>
+        <article>
+        <figure>
+          <img style="width: 150px;" src="https://cdn.pixabay.com/photo/2024/01/12/15/05/food-8504111_640.jpg" alt="Fries" />
+        </figure>
+        <br/>
+        <h3>Fries</h3>
+        <p>Golden, crispy, and perfectly seasoned — our hand-cut fries are fried to perfection and served hot and fresh. Enjoy them on their own or pair with your favorite dipping sauce. <i>$8</i></p>
+        </article>
+        <br/><hr/><br/>
+        <article>
+        <figure>
+          <img style="width: 150px;" src="https://cdn.pixabay.com/photo/2024/03/01/11/08/ai-generated-8606255_640.jpg" alt="Burger" />
+        </figure>
+        <h3>Burger</h3>
+        <p>A juicy grilled beef patty topped with melted American cheese, crisp lettuce, ripe tomato, red onion, pickles, and our house-made burger sauce — all stacked on a toasted brioche bun. <i>$12</i></p>
+        </article>
+        <br/><hr/><br/>
+        <article>
+        <figure>
+          <img style="width: 150px;" src="https://cdn.pixabay.com/photo/2017/06/26/13/58/chicken-2443901_640.jpg" alt="Chicken Wings" />
+        </figure>
+        <br>
+        <h3>Chicken Wings</h3>
+        <p>Not for the faint of heart — these wings are drenched in a fiery chili garlic glaze and finished with a dash of crushed red pepper for extra heat. Warning: they're addictive. <i>$10</i></p>
+        </article>
+      </section>
+      <br/>
+      <section id="order_form">
+        <h2>Place Your Order</h2>
+        <form>
+        <label>Number of Fries: </label><input type="number" min="0"/> <br>
+        <label>Number of Burgers: </label><input type="number" min="0"/> <br>
+        <label>Number of Chicken Wings: </label><input type="number" min="0"/> <br>
+        <br>
+        <label>Side + Add-Ons for the Burger</label>
+        <br>
+        <input type="radio" name="side" /> Pickles
+        <input type="radio" name="side" /> Onions
+        <input type="radio" name="side" /> Bacon 
+        <br><br>
+        <label>Special Requests:<br>
+        <textarea id="requests" placeholder="If there is a certain way you want your meals cooked please write here!"></textarea>
+        <br><br>
+        <input type="submit" value="Go To Checkout"/>
+        </form>
+      </section>
+    </main>
+    <br>
+    <footer>
+      <p>Made with love by: sa0825</p>
+    </footer>
+  </body>
+</html>
